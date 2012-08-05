@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vault.UI", "Vault.UI\Vault.UI.csproj", "{12429AE3-CDF0-4551-B724-13DF75C062B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{B484CE93-1BAB-499D-8982-17FD77114286}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5E63C945-F11E-43BE-99FE-4BF4F12D3034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vault.Domain", "Vault.Domain\Vault.Domain.csproj", "{7B7BD714-1EF8-45D5-B413-84085FCFD394}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{479CF727-D0E1-476F-B7E7-A67FB528FC78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vault.Domain.Tests", "Vault.Domain.Tests\Vault.Domain.Tests.csproj", "{6D36B236-7A6D-461B-9815-4A357EBDA74E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2E7B3CAA-A491-4214-975C-A65876A1DADD}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		Vault.vsmdi = Vault.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaul.Domain.Mocks", "Vaul.Domain.Mocks\Vaul.Domain.Mocks.csproj", "{A4CBEC6E-7534-4D0F-9605-D48FBCD2AE1F}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Vault.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12429AE3-CDF0-4551-B724-13DF75C062B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12429AE3-CDF0-4551-B724-13DF75C062B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12429AE3-CDF0-4551-B724-13DF75C062B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12429AE3-CDF0-4551-B724-13DF75C062B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B7BD714-1EF8-45D5-B413-84085FCFD394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7BD714-1EF8-45D5-B413-84085FCFD394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B7BD714-1EF8-45D5-B413-84085FCFD394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B7BD714-1EF8-45D5-B413-84085FCFD394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D36B236-7A6D-461B-9815-4A357EBDA74E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D36B236-7A6D-461B-9815-4A357EBDA74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D36B236-7A6D-461B-9815-4A357EBDA74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D36B236-7A6D-461B-9815-4A357EBDA74E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4CBEC6E-7534-4D0F-9605-D48FBCD2AE1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4CBEC6E-7534-4D0F-9605-D48FBCD2AE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4CBEC6E-7534-4D0F-9605-D48FBCD2AE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4CBEC6E-7534-4D0F-9605-D48FBCD2AE1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12429AE3-CDF0-4551-B724-13DF75C062B6} = {B484CE93-1BAB-499D-8982-17FD77114286}
+		{7B7BD714-1EF8-45D5-B413-84085FCFD394} = {5E63C945-F11E-43BE-99FE-4BF4F12D3034}
+		{6D36B236-7A6D-461B-9815-4A357EBDA74E} = {479CF727-D0E1-476F-B7E7-A67FB528FC78}
+		{2E7B3CAA-A491-4214-975C-A65876A1DADD} = {479CF727-D0E1-476F-B7E7-A67FB528FC78}
+		{A4CBEC6E-7534-4D0F-9605-D48FBCD2AE1F} = {479CF727-D0E1-476F-B7E7-A67FB528FC78}
+	EndGlobalSection
+EndGlobal
